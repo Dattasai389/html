@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tile>Table demo</tile>
+        <style>
+            table{width: 100%;
+                border-collapse: collapse;
+            }
+            thead{background-color: cadetblue;
+            color: aliceblue;}
+            tbody{background-color: beige;
+            }
+            td{
+                padding: 10px;
+            }
+            h1{color: coral;
+            text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h1>Company Employee Information</h1>
+        <table border="1">
+            <thead>
+            <tr>
+                <th rowspan="2">Emp ID</th>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Dept</th>
+                <th rowspan="2">Designation</th>
+                <th colspan="2">Contact Info</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>EMP 101</td>
+                <td>Alice JOhnson</td>
+                <td>HR</td>
+                <td>Manager</td>
+                <td>alice.hr@company.com</td>
+                <td>9876552342</td>
+                <td>$60000</td>
+                <td>New York,USA</td>
+            </tr>
+              <tr>
+                <td>EMP 102</td>
+                <td>Bob Smith</td>
+                <td>IT</td>
+                <td>Software Engineer</td>
+                <td>smith.it@company.com</td>
+                <td>9652145566</td>
+                <td>$50000</td>
+                <td>California,USA</td>
+            </tr>
+              <tr>
+                <td>EMP 103</td>
+                <td>James Charles</td>
+                <td>Finance</td>
+                <td>Analyst</td>
+                <td>james.finance@company.com</td>
+                <td>9550604468</td>
+                <td>$40000</td>
+                <td>Dallas</td>
+            </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

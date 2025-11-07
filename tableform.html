@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            forms
+        </title>
+    
+    </head>
+    <body>
+
+        <h1>TIME TABLE</h1>
+        <table border="1" cellpadding="10" cellspacing="0">
+            
+  <tr>
+    <th>Day</th>
+    <th>9:00 - 10:00</th>
+    <th>10:00 - 11:00</th>
+    <th>11:00 - 12:00</th>
+    <th>12:00 - 1:00</th>
+    <th>1:00 - 2:00</th>
+    <th>2:00 - 3:00</th>
+    <th>3:00 - 4:00</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>Mathematics-I</td>
+    <td>Physics</td>
+    <td>English</td>
+    <td rowspan="5">Lunch Break</td>
+    <td>Python Programming</td>
+    <td>Engineering Graphics</td>
+    <td>Library</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>Engineering Chemistry</td>
+    <td>English</td>
+    <td>Workshop</td>
+    <td>Mathematics-I</td>
+    <td>Physics</td>
+    <td>Sports</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>Python Lab</td>
+    <td colspan="2">Python Programming Lab</td>
+    
+    <td>English</td>
+    <td>Engineering Graphics</td>
+    <td>Mentoring Hour</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>Physics Lab</td>
+    <td colspan="2">Physics Laboratory</td>
+    
+    <td>Engineering Chemistry</td>
+    <td>Mathematics-I</td>
+    <td>Workshop</td>
+  </tr>
+  <tr>
+    <td>Friday</td>
+    <td>Engineering Graphics</td>
+    <td>Physics</td>
+    <td>Mathematics-I</td>
+    <td>Python Programming</td>
+    <td>Library</td>
+    <td>Sports</td>
+  </tr>
+</table>
+        <h1>STUDENT REGISTRATION FORM</h1>
+        <h2>Student details</h2>
+        <form action="/" method="get">
+            <table border="1">
+            <tr>
+                <th>Full name</th>
+                <td>
+                    <input type="text"
+                    placeholder="enter full name">
+                </td>
+            </tr>
+            
+            <tr>
+                <th>Email</th>
+                <td>
+                    <input type="mail"
+                    placeholder="example@email.com">
+                </td>
+            </tr> 
+            <br>
+            <tr>
+                <th>Password</th>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <th>Mobile number</th>
+                <td>
+                    <input type="number"
+                    placeholder="10 digit number">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <th>Age</th>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <th>Date of birth:</th>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    <input type="radio"
+            name="gender"
+            value="male">male
+            <input type="radio"
+            name="gender"
+            value="female">female
+            <input type="radio"
+            name="gender"
+            value="other">other
+            <br>
+                </td>
+            </tr>
+            <tr>
+            <th>
+            Courses interested
+            </th>
+            <td>
+            <input type="checkbox" 
+            value="C">C
+            <input type="checkbox" 
+            value="C++">C++
+            <input type="checkbox" 
+            value="Java">java
+            <input type="checkbox" 
+            value="Python">Python
+            <input type="checkbox" 
+            value="web development">web development
+            <tr>
+                <th>Branch:</th>
+                <td>
+                    <select name="branch">
+                <option>---select---</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>AIML</option>
+            </select><br><br>
+                </td>
+            </tr>
+            <tr>
+                <th>College website</th>
+                <td>
+                    <input type="url"
+                    placeholder="https://www.example.com">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <th>Address</th>
+                <td>
+                   <textarea rows="5" cols="50"
+                    placeholder="enter your address">
+                    </textarea>
+                    <br> 
+                </td>
+            </tr>
+            <tr>
+                <th>Preferred Time slot</th>
+                <td>
+                   <input type="time">
+                </td>
+            </tr>
+            <tr>
+                <th>Skill level(0-10)</th>
+                <td>
+                   <input type="range" min="1" max="10" ><br>
+                </td>
+            </tr>
+            <tr>
+                <th>Favourite color:</th>
+                <td>
+                   <input type="color" ><br>
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <th>
+                    <td>
+                        
+
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+            <input type="submit"
+            value="SUBMIT">
+            <input type="reset"
+            value="RESET">
+            </td>
+            </tr>
+
+            
+
+
+
+
+           
+        </form>
+        
+    </body>
+</html>
